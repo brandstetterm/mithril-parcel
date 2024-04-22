@@ -1,3 +1,5 @@
+import m from 'mithril';
+
 var RootComponent = {
   view: function() {
     return m("main", [
@@ -7,7 +9,6 @@ var RootComponent = {
   }
 }
 
-m.route.mode = "hash"
-m.route(document.querySelector("#root"), "/", {
+m.route(document.querySelector("#root")!, "/", {
   "/": RootComponent
 })
