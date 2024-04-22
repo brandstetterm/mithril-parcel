@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/mithril": "^2.2.6",
     "parcel": "^2.12.0"
   }
 }
